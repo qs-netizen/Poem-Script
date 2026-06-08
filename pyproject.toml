@@ -1,0 +1,18 @@
+[project]
+name = "poemscript"
+version = "0.1.0"
+authors = [
+    { name="AI Architect", email="architect@example.com" },
+]
+description = "A programming language that feels like writing poetry."
+readme = "README.md"
+requires-python = ">=3.14"
+license = { text = "MIT" }
+keywords = ["programming-language", "poetry", "interpreter"]
+
+[project.scripts]
+poemscript = "poemscript.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
