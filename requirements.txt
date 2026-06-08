@@ -1,0 +1,3 @@
+# No external dependencies required for PoemScript core.
+# If you intend to run tests or use specific development tools, add them here.
+# pytest>=7.0
