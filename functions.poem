@@ -1,0 +1,6 @@
+A poem called Greeting
+    Say "Hello"
+    Say "Welcome"
+
+# Execute the defined routine scope directly
+Greeting
