@@ -1,0 +1,11 @@
+A poem called RunConditions
+    Say "--- Conditional Logic Test ---"
+    
+    Set check_value to 1
+    
+    If check_value == 1
+        Say "Evaluation match: True block branch executed."
+    Else
+        Say "Evaluation match: False block branch executed."
+
+RunConditions
