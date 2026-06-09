@@ -1,0 +1,35 @@
+A poem called RunComprehensive
+    Say "=========================================="
+    Say "     POEMSCRIPT PARSER STRESS SUITE       "
+    Say "=========================================="
+    
+    # 1. State Variables Allocation
+    Set loop_limit to 6
+    Set step_scale to 40
+    Set switch_trigger to 1
+    
+    # 2. Timing Event Allocation
+    Say "Calibrating operational parameters..."
+    sleep(1)
+    
+    # 3. Canvas State Allocation
+    setup_turtle()
+    pen_width(5)
+    
+    # 4. Evaluating Gate States
+    If switch_trigger == 1
+        pen_color(get_color("neon", 1))
+        Say "Context active: Palette selection set to Neon."
+    Else
+        pen_color(get_color("ocean", 1))
+        Say "Context active: Palette selection set to Ocean."
+        
+    # 5. Core Operational Rendering Loop
+    Repeat loop_limit times
+        forward(step_scale)
+        right(60)
+        Set step_scale to sqrt(1600)
+        
+    Say "Comprehensive stress test finalized. System nominal."
+
+RunComprehensive
